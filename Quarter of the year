@@ -1,0 +1,25 @@
+const quarterOf = (month) => {
+  return Math.ceil(month / 3) ;
+  
+}
+5 hours agoRefactor
+
+
+const quarterOf = (month) => {
+  let quorter = '';
+  switch (month) {
+      case 1: case 2: case 3:
+        quorter = 1;
+        break;
+      case 4: case 5: case 6:
+        quorter = 2;
+        break;
+      case 7: case 8: case 9:
+        quorter = 3;
+        break;
+      case 10: case 11: case 12:
+        quorter = 4;
+        break;
+  }
+  return quorter;
+}
