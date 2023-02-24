@@ -1,0 +1,8 @@
+function squareArea(A){
+  // Circle length = 2PI*R;
+  // "A" here is a quorter of circle => A = (2*PI*R)/4 = (PI*R)/2;
+  // "R" here is a side of the square => area = R * R;
+  let R = (2 * A) / (Math.PI)
+  
+  return Math.round(Math.pow(R, 2) * 100) / 100;
+}
