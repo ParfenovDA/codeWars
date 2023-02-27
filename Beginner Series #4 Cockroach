@@ -1,0 +1,8 @@
+function cockroachSpeed(s) {
+  //Good Luck!
+  if(s <= 0) {
+    return 0;
+  }
+ 
+  return Math.floor(s / 0.036)
+}
