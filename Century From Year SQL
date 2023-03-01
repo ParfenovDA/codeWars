@@ -1,0 +1,4 @@
+SELECT yr, 
+CEILING(yr/100.00)
+AS century
+FROM years
